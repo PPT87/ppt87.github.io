@@ -11,6 +11,7 @@ const submitBtn = document.getElementById("submitBtn");
 submitBtn.addEventListener("click", function () {
   // Track the button click event
   htevents.track("Submit button clicked", {
+    button: "submit button",
     order: "second",
   });
 });
